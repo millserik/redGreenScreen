@@ -16,7 +16,7 @@ function draw() {
   textSize(20)
   stroke(0)
   fill(0)
-  text('pressing() vs pressed()',8,24)
+  text('full screen button',8,24)
   time = time + deltaTime;
   out_time = floor(time/1000)
   if(out_time == 60){
